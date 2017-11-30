@@ -9,6 +9,25 @@ Team conventions: Allman notation, markdown for changelog
 Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 
 ## Version Log
+### Version 5.0 Backend - GL, SM
+Release Date: 11.02.17
+
+##### New Components
+    - controllers
+	-Added Job
+    - other
+	-Added restful to 3rd party libraries
+
+##### Updated Components
+    - views
+	- Editted homepage backend version
+    - controllers
+	- Editted welcome page to specify backend version
+
+##### Comments
+	- Stored data is now in xml now instead of csv
+
+## Version Log
 ### Version 4.0 - GL, SM
 Release Date: 11.02.17
 
