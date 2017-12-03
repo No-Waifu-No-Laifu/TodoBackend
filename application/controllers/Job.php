@@ -28,15 +28,9 @@ class Job extends Rest_Controller {
             $this->tasks->add($record);
             $this->response(array('ok'), 200);
         }
-
-        // Handle an incoming DELETE - cruD
-        function index_delete($key=null)
-        {
-            $this->response('ok', 200);
-        }
         
         // Handle an incoming DELETE - delete a todo item
-        function item_delete($key=null)
+        function index_delete($key=null)
         {
             $this->tasks->delete($key);
             $this->response(array('ok'), 200);
