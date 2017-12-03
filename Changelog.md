@@ -12,6 +12,11 @@ Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdo
 ### Version 5.0 Backend - GL, SM
 Release Date: 11.02.17
 
+##### Updated Components
+    - controller
+	- Added method index_delete
+    - other
+	-Added correction to third party library restful Curl method
 ##### New Components
     - controllers
 	-Added Job
